@@ -37,7 +37,7 @@ margin-top : 0 ;
 max-width : 1000px ;
 margin : 0 auto ;
 }
-.post , .about  { 
+.post , .about , .privacypolicy  { 
 max-width : 800px ;
 margin : 0 auto ;
 padding : 60px 0 ;
@@ -90,8 +90,12 @@ color : #F6A623 ;
 .about {
 text-align : center ;
 }
+.privacypolicy {
+text-align : center ;
+}
 .post-author img , 
-.about-author img {
+.about-author img ,
+.privacypolicy img{
 border-radius : 50% ;
 }
 .post-container:nth-child(even) {
